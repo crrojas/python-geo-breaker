@@ -1,4 +1,4 @@
-geo-breaker
+python-geo-breaker
 ===========
 
 Python library for tessellation of forest harvest lands
