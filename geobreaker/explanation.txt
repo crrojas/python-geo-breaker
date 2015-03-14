@@ -1,0 +1,8 @@
+Teselado según terreno:
+
+a) Para cada cancha (Point) se crea un buffer (polygon) que representa su superficie de alcance
+b) Para cada superficie de alcance de las canchas
+    b.1) Obtener el tipo de equipo de la cancha
+    b.2) Se obtiene el máximo y mínimo de pendiente permitida para la cancha
+    b.3) Por cada superficie de alcance que intersecte a la actual:
+        b.3.1) 
