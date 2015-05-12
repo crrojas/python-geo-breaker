@@ -1,5 +1,0 @@
-Librerías
-    shapely
-    fiona
-    rtree -> http://toblerity.github.io/rtree/install.html
-        libspatialindex -> http://libspatialindex.github.io/install.html

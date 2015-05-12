@@ -7,7 +7,7 @@ class Context():
     sea genérico"""
 
     #Supocisiones
-    min_surface = 1000  # 1 ha como
+    min_surface = 15000  # 1 ha como
     slope_interval = 5
 
     #Tipos de canchas
@@ -23,10 +23,10 @@ class Context():
     min_equi_slope = {"SKHU": 0, "TORR": 30, "GRAPPLER": 0, "MIXT": 0}
 
     #Pendiente máxima de equipos en porcentaje
-    max_equi_slope = {"SKHU": 30, "TORR": 100, "GRAPPLER": 20, "MIXT": 100}
+    max_equi_slope = {"GRAPPLER": 20, "SKHU": 30, "TORR": 100, "MIXT": 100}
 
     #Tipos de uso que son cosechales
-    haverstable = ['PIRA', 'EUGL', 'EUNI', 'EUDE', 'PIOR']  # Qué es RFRM
+    haverstable = ['PIRA', 'EUGL', 'EUNI', 'EUDE', 'PIOR', 'RFRM']  # Qué es RFRM
 
     #Schemas genéricos
     #geometrycollection_schema = {'geometry': 'GeometryCollection',

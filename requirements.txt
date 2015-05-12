@@ -1,3 +1,4 @@
 shapely
 #GDAL: sudo apt-get install libgdal1-dev
 Fiona
+#scipy
